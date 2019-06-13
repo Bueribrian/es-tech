@@ -1,0 +1,33 @@
+.card{
+ padding: 2rem;
+ border: none;
+ font-size: .9rem;
+ font-family: 'Poppins',sans-serif;
+ &-title{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+ }
+ &-icon{
+  font-size: 7rem;
+  @include iconGradient;
+ }
+ &-body{
+  font-size: .8rem;
+  color: rgb(139, 139, 139);
+  text-align: center;
+ }
+ &-link{
+  &--btn{
+   padding: .8rem 1.2rem;
+   border: 2px solid orangered;
+   border-radius: 8px;
+   color: black;
+   transition: .3s all;
+   &:hover{
+    background: orangered;
+    color: white;
+   }
+  }
+ }
+}

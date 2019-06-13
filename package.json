@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass":"node-sass sass/template.scss css/template.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bueribrian/es-tech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bueribrian/es-tech/issues"
+  },
+  "homepage": "https://github.com/Bueribrian/es-tech#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

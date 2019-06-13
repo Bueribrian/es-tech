@@ -1,1 +1,35 @@
-:root{--first-font: 'Poppins', sans-serif;--first-color: #FE9D24;--second-color: #0D66D0}figure{margin:0}
+:root {
+  --first-font: 'Poppins', sans-serif;
+  --first-color: #FE9D24;
+  --second-color: #0D66D0; }
+
+figure {
+  margin: 0; }
+
+.card {
+  padding: 2rem;
+  border: none;
+  font-size: .9rem;
+  font-family: 'Poppins',sans-serif; }
+  .card-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .card-icon {
+    font-size: 7rem;
+    background: linear-gradient(orangered, #8d13ff);
+    color: transparent;
+    background-clip: text; }
+  .card-body {
+    font-size: .8rem;
+    color: #8b8b8b;
+    text-align: center; }
+  .card-link--btn {
+    padding: .8rem 1.2rem;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    color: black;
+    transition: .3s all; }
+    .card-link--btn:hover {
+      background: orangered;
+      color: white; }

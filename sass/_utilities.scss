@@ -4,4 +4,35 @@
 $small  : 576px;
 $medium : 768px;
 $large  : 992px;
-$xlarge : 1200px;
+$xlarge : 1201px;
+
+@mixin responsive($breakpoint){
+ @if $breakpoint == cell{
+  @media screen and(max-width: $small){
+   @content
+  }
+ }
+ @if $breakpoint == tab{
+  @media screen and(max-width: $medium){
+   @content
+  }
+ }
+ @if $breakpoint == tab-land{
+  @media screen and(max-width: $large){
+   @content
+  }
+ }
+ @if $breakpoint == big-screen{
+  @media screen and(min-width: $xlarge){
+   @content
+  }
+ }
+}
+
+
+
+@mixin iconGradient {
+ background: linear-gradient(orangered, rgb(141, 19, 255)) ;
+ color: transparent;
+ background-clip: text;
+}
