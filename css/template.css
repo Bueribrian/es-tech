@@ -1,10 +1,9 @@
-:root {
-  --first-font: 'Poppins', sans-serif;
-  --first-color: #FE9D24;
-  --second-color: #0D66D0; }
-
 figure {
   margin: 0; }
+
+@media screen and (max-width: 576px) {
+  .about-title {
+    font-size: 1rem !important; } }
 
 .card {
   padding: 2rem;
@@ -17,7 +16,7 @@ figure {
     letter-spacing: 2px; }
   .card-icon {
     font-size: 7rem;
-    background: linear-gradient(orangered, #8d13ff);
+    background: linear-gradient(#FE9D24, #0D66D0);
     color: transparent;
     background-clip: text; }
   .card-body {
@@ -26,10 +25,10 @@ figure {
     text-align: center; }
   .card-link--btn {
     padding: .8rem 1.2rem;
-    border: 2px solid orangered;
+    border: 2px solid #FE9D24;
     border-radius: 8px;
     color: black;
     transition: .3s all; }
     .card-link--btn:hover {
-      background: orangered;
+      background: #FE9D24;
       color: white; }

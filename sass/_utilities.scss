@@ -7,7 +7,7 @@ $large  : 992px;
 $xlarge : 1201px;
 
 @mixin responsive($breakpoint){
- @if $breakpoint == cell{
+ @if $breakpoint == phone{
   @media screen and(max-width: $small){
    @content
   }
@@ -32,7 +32,7 @@ $xlarge : 1201px;
 
 
 @mixin iconGradient {
- background: linear-gradient(orangered, rgb(141, 19, 255)) ;
+ background: linear-gradient($first-color, $second-color) ;
  color: transparent;
  background-clip: text;
 }
