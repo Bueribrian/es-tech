@@ -31,8 +31,8 @@ $xlarge : 1201px;
 
 
 
-@mixin iconGradient {
- background: linear-gradient($first-color, $second-color) ;
+@mixin iconGradient($color1, $color2) {
+ background: linear-gradient($color1, $color2) ;
  color: transparent;
  background-clip: text;
 }
